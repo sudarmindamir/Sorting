@@ -1,4 +1,4 @@
-a.Bubble Sort
+a.Bubble Sort = Bubble sort (metode gelembung) adalah metode/algoritma pengurutan dengan dengan cara melakukan penukaran data dengan tepat disebelahnya secara terus menerus sampai bisa dipastikan dalam satu iterasi tertentu tidak ada lagi perubahan
 /*Pseudocode*/
 procedure bubbleSort( list : array of items )
 
@@ -30,7 +30,7 @@ procedure bubbleSort( list : array of items )
 end procedure return list
 
 
-b.Insertion Sort
+b.Insertion Sort = adalah sebuah metode pengurutan data dengan menempatkan setiap elemen data pada pisisinya dengan cara melakukan perbandingan dengan data – data yang ada. Dalam pengurutan data, metode ini dipakai bertujuan untuk menjadikan bagian sisi kiri array terurutkan sampai dengan seluruh array diurutkan.
 /*Pseudocode*/
 procedure insertionSort( A : array of items )
    int holePosition
@@ -57,7 +57,7 @@ procedure insertionSort( A : array of items )
 end procedure
 
 
-c. Selection Sort
+c. Selection Sort = merupakan salah satu algoritma pengurutan yang sederhana. Ide dasarnya adalah melakukan beberapa kali pass untuk melakukan penyeleksian elemen struktur data.
  
  /*Pseudocode*/
   procedure selection sort 
@@ -84,7 +84,7 @@ c. Selection Sort
 	
 end procedure
 
-d. Merge Sort
+d. Merge Sort = merupakan algoritme pengurutan dalam ilmu komputer yang dirancang untuk memenuhi kebutuhan pengurutan atas suatu rangkaian data yang tidak memungkinkan untuk ditampung dalam memori komputer karena jumlahnya yang terlalu besar.
 	procedure mergesort( var a as array )
    if ( n == 1 ) return a
 
@@ -123,7 +123,7 @@ procedure merge( var a as array, var b as array )
    return c
 	
 end procedure
-e. Shell Sort
+e. Shell Sort = Metode ini mengurutkan data dengan cara membandingkan suatu data dengan data lain yang memiliki jarak tertentu, kemudian dilakukan penukaran bila diperlukan.
 	procedure shellSort()
    A : array of items 
 	
@@ -157,7 +157,7 @@ e. Shell Sort
    end while
    
 end procedure
-f. Quick Sort
+f. Quick Sort = algoritma pengurutan yang sangat cepat dengan tipe penyelesaian divide and conquer.
 	procedure quickSort(left, right)
 
    if right-left <= 0
@@ -170,7 +170,7 @@ f. Quick Sort
    end if		
    
 end procedure
-g. Linear Search
+g. Linear Search = pencarian data secara linier (garis lurus), artinya adalah pencarian dilakukan secara teratur (secara sekuensial) dari awal sampai akhir data (atau bisa juga dari akhir ke awal data) 
 	procedure linear_search (list, value)
 
    for each item in the list
@@ -180,7 +180,7 @@ g. Linear Search
    end for
 
 end procedure
-h. Binary Search
+h. Binary Search = pencarian data secara eliminasi biner berulang/terus-menerus. Maksudnya adalah pada saat pencarian data, 1 kelompok data yang sudah urut dibagi menjadi 2 subkelompok. Lalu salah satu subkelompok dieliminasi, sehingga ruang lingkup pencarian data menjadi lebih sedikit. Kemudian subkelompok yang tersisa dibagi lagi menjadi 2 subkelompok lagi, demikian dilakukan secara berulang-ulang.
 	Procedure binary_search
    A ← sorted array
    n ← size of array
@@ -206,7 +206,7 @@ h. Binary Search
    end while
    
 end procedure
-i. Hash Table
+i. Hash Table = sebuah struktur data yang terdiri atas sebuah tabel dan fungsi yang bertujuan untuk memetakan nilai kunci yang unik untuk setiap record (baris) menjadi angka (hash) lokasi record tersebut dalam sebuah tabel.
 	struct DataItem *search(int key) {
    //get the hash
    int hashIndex = hashCode(key);
