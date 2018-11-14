@@ -83,3 +83,14 @@ c. Selection Sort
    end for
 	
 end procedure
+
+d. Merge Sort
+
+e. Shell Sort
+
+f. Quick Sort
+
+g. Linear Search
+
+h. Binary Search
+i. Hash Table
