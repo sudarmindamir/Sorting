@@ -3,7 +3,8 @@ a.Bubble Sort
 b.Insertion Sort
 //Pseudocode
 c. Selection Sort
-  //Pseudocode
+ 
+ /*Pseudocode*/
   procedure selection sort 
    list  : array of items
    n     : size of list
